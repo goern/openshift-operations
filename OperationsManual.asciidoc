@@ -1,0 +1,42 @@
+= OpenShift Operations Manual
+Christoph Görn <goern@redhat.com>
+0.1.0, 2016-Dec-13
+
+:doctype: book
+:compat-mode!:
+:numbered:
+:chapter-label:
+:specialnumbered!:
+:experimental:
+:listing-caption: Listing
+:toc:
+:icons: font
+:toclevels: 3
+
+ifdef::backend-pdf[]
+:pagenums:
+:pygments-style: bw
+:source-highlighter: pygments
+endif::[]
+
+// These are shortcuts we could use all over the document/files
+:paas: Platform-as-a-Service
+:OCP: OpenShift Container Platform
+:RHEL7: Red Hat Enterprise Linux 7 Server
+:VCS: Version Control System
+:DNS: Domain Name System
+:IAM: Identity and Access Management
+
+
+[asbstract]
+//empty on purpose so that legal can be on separate page and not conflict with toc
+
+<<<
+
+Send feedback to goern@redhat.com
+
+<<<
+
+include::ReleaseManagement.asciidoc[]
+
+// vim: set syntax=asciidoc:
